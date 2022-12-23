@@ -1,0 +1,105 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Catamaran:wght@400;500&family=Montserrat:wght@200;300;400&family=Poppins:wght@200;300;400&family=Raleway:wght@200&family=Tangerine:wght@400;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Catamaran:wght@400;500&family=Montserrat:wght@200;300;400&family=Poppins:wght@200;300;400&family=Raleway:wght@200;600&family=Tangerine:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #bae6fd;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 450px;
+  background: #fff;
+  border-radius: 9px;
+  padding: 30px;
+}
+
+.wrapper .upload-box {
+  height: 225px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #afafaf;
+}
+
+.upload-box p {
+  font-size: 1.06rem;
+  margin-top: 20px;
+}
+
+.wrapper .content {
+  margin-top: 28px;
+}
+
+.content .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .row .column {
+  width: calc(100% / 2 -15px);
+}
+
+.row .column label {
+  font-size: 1.06rem;
+}
+
+.sizes .column input {
+  width: 100%;
+  height: 49px;
+  outline: none;
+  margin-top: 7px;
+  padding: 0 15px;
+  font-size: 1.06rem;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+
+.sizes .column input:focus {
+  padding: 0 14px;
+  border: 2px solid #bae6fd;
+}
+
+.content .checkboxes {
+  margin-top: 20px;
+}
+
+.checkboxes .column {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxes .column input {
+  width: 17px;
+  height: 17px;
+  accent-color: #bae6fd;
+  margin-right: 9px;
+}
+
+.content .download-btn {
+  width: 100%;
+  color: #fff;
+  outline: none;
+  padding: 15px 0;
+  margin: 30px 0 10px;
+  border: none;
+  font-size: 1.06rem;
+  border-radius: 5px;
+  background: #bae6fd;
+  cursor: pointer;
+  text-transform: uppercase;
+}
